@@ -1,0 +1,19 @@
+node_modules
+/node_modules
+/.env.local
+/kmi.config.local.ts
+/config/config.local.ts
+/src/.kmi
+/src/.kmi-production
+/.kmi
+/.kmi-production
+/dist
+/.mfsu
+.qianxiang
+.eslintcache
+.stylelintcache
+# OSX
+**/.DS_Store
+.DS_Store
+
+**.code-workspace
