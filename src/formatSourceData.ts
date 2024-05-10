@@ -18,7 +18,7 @@ const getSumInDay = (value: (string | number)[]) => {
 
 const getDateNum = (value: string)=>{
   const reg = /D(\d+) \d+\.\d+/;
-  const regRes = value.match(reg);
+  const regRes = value?.match(reg);
   if(regRes){
     return +regRes?.[1];
   }
